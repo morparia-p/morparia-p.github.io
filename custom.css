@@ -1,0 +1,67 @@
+.nav-tabs {
+    padding-top: 5%;
+}
+
+.nav-tabs>li>a {
+    background-color: #eee;
+    margin-right: 0;
+    color:#aaa;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.nav-tabs>li>a.no-rounded-corner{
+    border-radius: 0;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+
+.tab-content>.active {
+  display: inline-block;
+}
+
+.new-border {
+    height: 100%; 
+    border-left: 1px solid #ddd; 
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2%;
+}
+
+.tab-pane>p {
+    margin: 3%;
+}
+
+#accordion>.no-border {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.panel>.panel-heading {
+    border-left: 6px solid black;
+    border-radius: 0;
+}
+
+.panel-default{
+-webkit-box-shadow:none;
+          box-shadow: none;
+          border: 0;
+}
+.panel-heading.active {
+    border-left: 6px solid blue;
+    border-radius: 0;
+}
+
+.panel-heading:hover{
+    style:none;
+}
+
+.panel-title a{
+	text-decoration: none;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: none;
+}
