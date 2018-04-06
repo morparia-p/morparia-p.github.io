@@ -51,7 +51,7 @@
           border: 0;
 }
 .panel-heading.active {
-    border-left: 6px solid blue;
+    border-left: 6px solid #00e7ff;
     border-radius: 0;
 }
 
